@@ -1,0 +1,12 @@
+@media screen and (max-width: 600px) {
+    .image1 {
+        height: 100px;
+    }
+    .image2 {
+        position: absolute;
+        height: 137.5px;
+        top: 35px;
+        left: 0;
+    }
+    
+}

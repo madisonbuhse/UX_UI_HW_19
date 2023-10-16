@@ -1,0 +1,139 @@
+body {
+    font-family: 'Sora', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(12,37,84,1);
+}
+li {
+    float: left;
+    color: white;
+    margin: 30px 150px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+header {
+    height: 400px;
+    width: 100%;
+}
+
+.image1 {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 3;
+}
+
+.image2 {
+    position: absolute;
+    height: 275px;
+    top: 70px;
+    left: 38%;
+    z-index: 4;
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+    top: 200px;
+    left: 0;
+    z-index: 2;
+}
+
+.main {
+    width: 60%;
+}
+
+.big {
+    padding: 30px 50px;
+}
+
+.secondary {
+    width: 100%;
+    text-align: right;
+}
+
+.circle {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 45%;
+    z-index: 1;
+}
+
+h1 {
+    background-color: rgba(12,37,84,1);
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px 30px
+}
+
+.slide {
+    text-align: center;
+}
+
+.small {
+    padding: 30px 40px;
+}
+
+footer {
+    text-align: center;
+}
+
+.bottom {
+    font-weight: lighter;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+}
+
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 100000;
+    background-color: white;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.preloader img {
+    animation: spin 3s ease;
+    transition: all;
+    width: 500px;
+    margin: 0 auto;
+  }
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg)
+    }
+    50% {
+        transform: rotate(360deg)
+    }
+    100% {
+        transform: rotate(720deg)
+    }
+}
+
+.hover {
+    position: absolute;
+    height: 300px;
+    top: 65px;
+    left: 37%;
+    z-index: 4;
+}
